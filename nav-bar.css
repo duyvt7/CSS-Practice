@@ -1,0 +1,24 @@
+/* color paletet*/
+:root{
+    --bgr-color:#F1ECC3;
+    --hover-color: #C9D8B6;
+    --sbgr-color:#57837B;
+    --text-color:#515E63;
+}
+*{
+    background-color: var(--bgr-color);
+}
+ul{
+    list-style-type: none;
+    float: right;
+}
+
+li{
+    color:var(--text-color);
+    display:inline;
+
+}
+
+.container{
+    background-color: lightblue;
+}
